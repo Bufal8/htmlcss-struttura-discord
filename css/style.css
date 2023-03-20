@@ -86,7 +86,9 @@ div a{
     background-color: chartreuse;
 }
 
-
+.reverse{
+    background-color: darkgreen;
+}
 
 #n2 {
     order: -1;
@@ -119,4 +121,28 @@ h3{
 
 h2{
     font-size: 45px;
+}
+
+#last-download{
+    margin-top: 50px;
+}
+
+.foot-bloc{
+    display: flex;
+    background-color: yellow;
+}
+
+.social{
+    flex-basis: 20%;
+    background-color: orange;
+}
+
+.link-type{
+    list-style: none;
+}
+
+.link{
+    display: flex;
+
+
 }
