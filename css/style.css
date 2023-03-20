@@ -18,13 +18,52 @@ a{
     align-items: center;
 }
 
+.logo{
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+}
+
 .main-nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    flex-basis: 800px;
+    flex-basis: 60%;
 }
 
 .accedi{
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+}
+
+.jumbotrone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    margin-top: 50px;
+    margin: 0 200px;
+}
+
+h1{
+    margin-bottom: 20px ;
+}
+
+div a{
+    color: #fff;
+    background-color: black;
+    margin: 20px 20px;
+}
+
+.subt{
+    text-align: center;
+}
+
+.calltoaction{
+    display: flex;
+    justify-content: space-around;
+
 }
